@@ -53,7 +53,7 @@ def add_headers():
                       "Chrome/68.0.3440.106 Safari/537.36"
     }
     response = requests.get("http://www.baidu.com/s?", params=kw, headers=headers)
-    with open(value.join('.html'), 'wb') as f:
+    with open(value+'.html', 'wb') as f:
         f.write(response.content)
     print(response.text)
     print(response.url)
@@ -84,10 +84,43 @@ def request_proxy():
     url = 'http://www.baidu.com'
 
     proxies = {
-        "https": '183.62.22.220:3128',
+        'http':'http://1.197.178.215:39087',
+        "https": "https://114.223.221.128:808",
     }
     resp = requests.get(url, proxies)
     print(resp.content)
+
+
+def private_proxy():
+    import requests
+    url = 'http://www.meizitu.com/'
+    proxies = {
+        "https": "https://trygf521:a4c4avg9@118.89.60.145:16818/",
+    }
+    resp = requests.get(url, proxies=proxies)
+    print(resp.content.decode('gb2312'))
+
+
+def fetch_page():
+    import requests
+    keyword = input('请输入贴吧名字:')
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 '
+                      'Safari/537.36'
+    }
+    PAGES = 3
+    ITEMS = 50
+
+    for i in range(PAGES):
+        print(f'开始下载第{i}页', '...')
+        num = i * ITEMS
+        url = f'https://tieba.baidu.com/f?kw={keyword}&ie=utf-8&pn=' + str(num)
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            with open(keyword+f'{i}.html', 'wb') as fw:
+                fw.write(response.content)
+
+            print(f'第{i}页完成！', 'ok!')
 
 
 if __name__ == '__main__':
@@ -96,4 +129,6 @@ if __name__ == '__main__':
     # requests_org()
     # add_headers()
     # method_post()
-    request_proxy()
+    # request_proxy()
+    # private_proxy()
+    fetch_page()
