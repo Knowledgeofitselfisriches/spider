@@ -4,7 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+selenium = "*"
 lxml = "*"
+"beautifulsoup4" = "*"
+pyquery = "*"
+pymysql = "*"
+pymongo = "*"
+redis = "*"
+jupyter = "*"
+jsonpath = "*"
+requests = "*"
 
 [dev-packages]
 
