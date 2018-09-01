@@ -27,9 +27,9 @@ def get_product_id_list():
     for link in link_list:
 
         link = link.split(".html")[0]
-        # 把不要的切掉,替换成空字符串
+
         id = link.replace("//item.jd.com/", "")
-        # 添加到列表里面
+
         id_list.append(id)
 
     return id_list

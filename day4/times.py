@@ -20,3 +20,24 @@ city = jsonpath.jsonpath(content, "$..hightUrl")
 
 with open('video.json', 'w', encoding='utf-8') as f:
     json.dump(city, f, ensure_ascii=False)
+
+class TimeSpider(object):
+
+    def get_json(self):
+        url = 'http://api.m.mtime.cn/PageSubArea/TrailerList.api'
+
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+        }
+        resp = requests.get(url, headers=headers)
+
+        content = resp.content
+        return content
+
+    def save(self,content):
+        content = json.loads(content, encoding='utf-8')
+
+        city = jsonpath.jsonpath(content, "$..hightUrl")
+
+        with open('video.json', 'w', encoding='utf-8') as f:
+            json.dump(city, f, ensure_ascii=False)

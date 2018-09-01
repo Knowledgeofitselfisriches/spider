@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de76574-7f7f-481c-99ab-fd5caab60238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/bs4_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/douyu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/funnywiki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/jd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/review.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/tengxun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/tianmao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/times.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/wapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/wawa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/拉钩.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/qiushi_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/chrometools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/done.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/inaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/multithreads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/noui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/seleniumJD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/testchrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/thread_qiushi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/funnywiki.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/funnywiki.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/jd.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/jd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/tengxun.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/tengxun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/tianmao.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/tianmao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/times.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/times.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,24 +26,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/spider$jd.coverage" NAME="jd Coverage Results" MODIFIED="1535697516202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
-    <SUITE FILE_PATH="coverage/spider$xmlparses.coverage" NAME="xmlparses Coverage Results" MODIFIED="1535526102687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
-    <SUITE FILE_PATH="coverage/spider$review.coverage" NAME="review Coverage Results" MODIFIED="1535505604403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
-    <SUITE FILE_PATH="coverage/spider$PixivSpider.coverage" NAME="PixivSpider Coverage Results" MODIFIED="1535460832860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/spider$seleniumJD.coverage" NAME="seleniumJD Coverage Results" MODIFIED="1535790522468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
     <SUITE FILE_PATH="coverage/spider$times.coverage" NAME="times Coverage Results" MODIFIED="1535704314268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/spider$noui.coverage" NAME="noui Coverage Results" MODIFIED="1535782875064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
     <SUITE FILE_PATH="coverage/spider$reg.coverage" NAME="reg Coverage Results" MODIFIED="1535456885219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/spider$wawa.coverage" NAME="wawa Coverage Results" MODIFIED="1535691431879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
-    <SUITE FILE_PATH="coverage/spider$xp.coverage" NAME="xp Coverage Results" MODIFIED="1535547846149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
     <SUITE FILE_PATH="coverage/spider$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1535446770931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
-    <SUITE FILE_PATH="coverage/spider$tengxun.coverage" NAME="tengxun Coverage Results" MODIFIED="1535702418842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/spider$thread_qiushi.coverage" NAME="thread_qiushi Coverage Results" MODIFIED="1535773041626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
     <SUITE FILE_PATH="coverage/spider$paragrah.coverage" NAME="paragrah Coverage Results" MODIFIED="1535511996787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
     <SUITE FILE_PATH="coverage/spider$tianmao.coverage" NAME="tianmao Coverage Results" MODIFIED="1535687960257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
     <SUITE FILE_PATH="coverage/spider$review__1_.coverage" NAME="review (1) Coverage Results" MODIFIED="1535680324524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
-    <SUITE FILE_PATH="coverage/spider$bs4_test.coverage" NAME="bs4_test Coverage Results" MODIFIED="1535686017702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
     <SUITE FILE_PATH="coverage/spider$funnywiki.coverage" NAME="funnywiki Coverage Results" MODIFIED="1535707249783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/spider$housework.coverage" NAME="housework Coverage Results" MODIFIED="1535547617859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/spider$chrometools.coverage" NAME="chrometools Coverage Results" MODIFIED="1535787688574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/spider$jd.coverage" NAME="jd Coverage Results" MODIFIED="1535697516202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/spider$multithreads.coverage" NAME="multithreads Coverage Results" MODIFIED="1535778469994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/spider$xmlparses.coverage" NAME="xmlparses Coverage Results" MODIFIED="1535526102687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/spider$review.coverage" NAME="review Coverage Results" MODIFIED="1535505604403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/spider$inaction.coverage" NAME="inaction Coverage Results" MODIFIED="1535806845592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/spider$PixivSpider.coverage" NAME="PixivSpider Coverage Results" MODIFIED="1535460832860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/spider$testchrome.coverage" NAME="testchrome Coverage Results" MODIFIED="1535782814872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/spider$xp.coverage" NAME="xp Coverage Results" MODIFIED="1535547846149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/spider$tengxun.coverage" NAME="tengxun Coverage Results" MODIFIED="1535702418842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/spider$done.coverage" NAME="done Coverage Results" MODIFIED="1535790974142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/spider$bs4_test.coverage" NAME="bs4_test Coverage Results" MODIFIED="1535686017702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
     <SUITE FILE_PATH="coverage/spider$.coverage" NAME="拉钩 Coverage Results" MODIFIED="1535703810843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
     <SUITE FILE_PATH="coverage/spider$wapper.coverage" NAME="wapper Coverage Results" MODIFIED="1535697768817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
-    <SUITE FILE_PATH="coverage/spider$housework.coverage" NAME="housework Coverage Results" MODIFIED="1535547617859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
     <SUITE FILE_PATH="coverage/spider$douyu.coverage" NAME="douyu Coverage Results" MODIFIED="1535686349409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
     <SUITE FILE_PATH="coverage/spider$spider.coverage" NAME="spider Coverage Results" MODIFIED="1535597045648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
@@ -65,20 +73,21 @@
     <session id="-535381792">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,8 +97,10 @@
           <entry key="html" value="19" />
           <entry key="ipynb" value="1" />
           <entry key="jpg" value="13" />
-          <entry key="json" value="4" />
-          <entry key="py" value="43" />
+          <entry key="json" value="9" />
+          <entry key="log" value="1" />
+          <entry key="png" value="2" />
+          <entry key="py" value="70" />
           <entry key="regx" value="4" />
           <entry key="txt" value="7" />
         </counts>
@@ -98,31 +109,89 @@
         <counts>
           <entry key="HTML" value="19" />
           <entry key="IPNB" value="1" />
-          <entry key="Image" value="13" />
-          <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="43" />
+          <entry key="Image" value="15" />
+          <entry key="JSON" value="9" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="293" />
-          <entry key="dummy" value="1" />
-          <entry key="py" value="8733" />
+          <entry key="dummy" value="6" />
+          <entry key="json" value="1" />
+          <entry key="py" value="11820" />
           <entry key="regx" value="20" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="9026" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Python" value="12113" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day5/chrometools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#23#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day5/inaction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1809">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="e#22#52#0" expanded="true" />
+                <marker date="1535806845525" expanded="true" signature="1754:2480" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="756" column="11" selection-start-line="756" selection-start-column="11" selection-end-line="763" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day5/seleniumJD.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#23#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day5/testchrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,15 +240,26 @@
         <option value="$PROJECT_DIR$/day4/bs4_test.py" />
         <option value="$PROJECT_DIR$/day4/review.py" />
         <option value="$PROJECT_DIR$/day4/douyu.py" />
-        <option value="$PROJECT_DIR$/day4/tianmao.py" />
-        <option value="$PROJECT_DIR$/day4/jd.py" />
         <option value="$PROJECT_DIR$/day4/title.txt" />
         <option value="$PROJECT_DIR$/day4/wapper.py" />
         <option value="$PROJECT_DIR$/day4/wawa.py" />
-        <option value="$PROJECT_DIR$/day4/tengxun.py" />
         <option value="$PROJECT_DIR$/day4/拉钩.py" />
         <option value="$PROJECT_DIR$/day4/times.py" />
+        <option value="$PROJECT_DIR$/day4/tengxun.py" />
+        <option value="$PROJECT_DIR$/day4/jd.py" />
+        <option value="$PROJECT_DIR$/day4/tianmao.py" />
         <option value="$PROJECT_DIR$/day4/funnywiki.py" />
+        <option value="$PROJECT_DIR$/day4/qiushi_thread.py" />
+        <option value="$PROJECT_DIR$/day5/糗事百科.json" />
+        <option value="$PROJECT_DIR$/day5/thread_qiushi.py" />
+        <option value="$PROJECT_DIR$/day5/multithreads.py" />
+        <option value="$PROJECT_DIR$/day5/noui.py" />
+        <option value="$PROJECT_DIR$/day5/chrome.py" />
+        <option value="$PROJECT_DIR$/day5/chrometools.py" />
+        <option value="$PROJECT_DIR$/day5/done.py" />
+        <option value="$PROJECT_DIR$/day5/testchrome.py" />
+        <option value="$PROJECT_DIR$/day5/seleniumJD.py" />
+        <option value="$PROJECT_DIR$/day5/inaction.py" />
       </list>
     </option>
   </component>
@@ -190,10 +270,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="513" />
-    <option name="y" value="32" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-13" />
+    <option name="y" value="36" />
+    <option name="width" value="951" />
+    <option name="height" value="521" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -201,6 +281,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,18 +292,17 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
+              <item name="day4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="day4" type="462c0819:PsiDirectoryNode" />
+              <item name="day5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +315,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -258,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.funnywiki">
+  <component name="RunManager" selected="Python.inaction">
     <configuration name="spider" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,7 +357,7 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="拉钩" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chrometools" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,12 +365,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/拉钩.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5/chrometools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +379,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="funnywiki" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="done" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,12 +387,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/funnywiki.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5/done.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,7 +401,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tengxun" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="inaction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,12 +409,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/tengxun.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5/inaction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,7 +423,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="times" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="noui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,12 +431,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/times.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5/noui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,7 +445,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="seleniumJD" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -373,12 +453,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/wapper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5/seleniumJD.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,19 +469,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.spider" />
-      <item itemvalue="Python.wapper" />
-      <item itemvalue="Python.tengxun" />
-      <item itemvalue="Python.拉钩" />
-      <item itemvalue="Python.times" />
-      <item itemvalue="Python.funnywiki" />
+      <item itemvalue="Python.noui" />
+      <item itemvalue="Python.chrometools" />
+      <item itemvalue="Python.done" />
+      <item itemvalue="Python.seleniumJD" />
+      <item itemvalue="Python.inaction" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.funnywiki" />
-        <item itemvalue="Python.times" />
-        <item itemvalue="Python.拉钩" />
-        <item itemvalue="Python.tengxun" />
-        <item itemvalue="Python.wapper" />
+        <item itemvalue="Python.inaction" />
+        <item itemvalue="Python.done" />
+        <item itemvalue="Python.seleniumJD" />
+        <item itemvalue="Python.chrometools" />
+        <item itemvalue="Python.noui" />
       </list>
     </recent_temporary>
   </component>
@@ -427,11 +507,11 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.120272316" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.45791245" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.63711" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.9543919" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62068963" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.954023" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -508,107 +588,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1/李毅0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/baidu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="103" selection-start-line="103" selection-end-line="122" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/2.html" />
-    <entry file="file://$PROJECT_DIR$/day2/魅族0.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/jd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4000" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/zhibo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2500" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/70415155_p0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="624" column="13" selection-start-line="624" selection-start-column="13" selection-end-line="624" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="650" column="12" selection-start-line="650" selection-start-column="12" selection-end-line="650" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/paragrah.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/PixivSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/regx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="38" selection-end-line="9" selection-end-column="1652" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/reg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/lxml/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/段子.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4250" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day3/ju.py" />
     <entry file="file://$PROJECT_DIR$/day3/jutest.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
@@ -657,16 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <element signature="e#107#1911#0" />
-            <marker date="1535686108706" expanded="true" signature="145:314" ph="..." />
-            <marker date="1535686108706" expanded="true" signature="365:374" ph="..." />
-            <marker date="1535686108706" expanded="true" signature="1696:1702" ph="..." />
-            <marker date="1535686108706" expanded="true" signature="1999:2468" ph="..." />
-            <marker date="1535686108706" expanded="true" signature="2098:2099" ph="..." />
-            <marker date="1535686108706" expanded="true" signature="2365:2435" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,18 +649,12 @@
     <entry file="file://$PROJECT_DIR$/day4/gamersky_29origin_57_20188161748B4C.jpg" />
     <entry file="file://$PROJECT_DIR$/day4/gamersky_30origin_59_20188161748370.jpg" />
     <entry file="file://$PROJECT_DIR$/day4/gamersky_31origin_61_20188161748127.jpg" />
-    <entry file="file://$PROJECT_DIR$/day4/ab8cb203918fa0ec9d4ed0e32a9759ee3c6ddb34.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day4/ab8cb203918fa0ec9d4ed0e32a9759ee3c6ddb34.jpg" />
     <entry file="file://$PROJECT_DIR$/day4/gamersky_32origin_63_201881617487AF.jpg" />
     <entry file="file://$PROJECT_DIR$/day3/housework.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="49" column="35" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="49" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1535549315382" expanded="true" signature="72:2996" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,19 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/jd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,10 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <marker date="1535701910539" expanded="true" signature="451:454" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,10 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-            <marker date="1535697768724" expanded="true" signature="95:3866" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,26 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/tengxun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/拉钩.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,38 +709,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day4/qiushi.json">
+    <entry file="file://$PROJECT_DIR$/day4/jd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/funnywiki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <marker date="1535707249690" expanded="true" signature="91:92" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/times.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="37" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day4/tianmao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day4/qiushi.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day4/times.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day4/拉钩.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day4/tengxun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="89" column="29" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="89" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/糗事百科.json" />
+    <entry file="file://$PROJECT_DIR$/day5/thread_qiushi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="165" column="10" lean-forward="true" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/谷歌内置没有界面的浏览器.png" />
+    <entry file="file://$PROJECT_DIR$/day5/女优.png" />
+    <entry file="file://$PROJECT_DIR$/day4/funnywiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/multithreads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/noui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day4/qiushi_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="827" column="8" selection-start-line="827" selection-start-column="8" selection-end-line="827" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/selenium/webdriver/firefox/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="52" column="68" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="355" column="8" selection-start-line="355" selection-start-column="8" selection-end-line="355" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/selenium/webdriver/firefox/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2950">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/done.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#23#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/selenium/webdriver/chrome/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/seleniumJD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#23#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/testchrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Envs/spider-T03FdRRW/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="756" column="11" selection-start-line="756" selection-start-column="11" selection-end-line="763" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/chrometools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#23#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/inaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1809">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#22#52#0" expanded="true" />
+            <marker date="1535806845525" expanded="true" signature="1754:2480" ph="..." />
           </folding>
         </state>
       </provider>
