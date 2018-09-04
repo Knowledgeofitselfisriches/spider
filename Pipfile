@@ -14,6 +14,10 @@ redis = "*"
 jupyter = "*"
 jsonpath = "*"
 requests = "*"
+"pywin32" = "*"
+pyopenssl = "*"
+twisted = "*"
+scrapy = "*"
 
 [dev-packages]
 

@@ -83,7 +83,7 @@ class ThreadParse(Thread):
             if len(comments) > 0:
                 item["comments"] = comments[0]
             print(item)
-
+            item = json.dumps(item, ensure_ascii=False) + '\n'
             # 添加到列表里面
             # items.append(item)
             # 获得锁,释放锁的功能,其他线程无法获得
@@ -91,7 +91,6 @@ class ThreadParse(Thread):
                 # 保存到qiushibaike.json中
                 # item = f'{item}\n'
                 # json.dump(item, self.file_name, ensure_ascii=False)
-                item = json.dumps(item, ensure_ascii=False) + '\n'
                 self.file_name.write(item)
 
 
@@ -150,7 +149,7 @@ def main():
     # 解析线程结束
     parse_exit = True
 
-    # 等待采集线程结束
+    # 等待解析线程结束
     for parse in thread_parses:
         parse.join()
         print("%s线程结束" % str(parse))
