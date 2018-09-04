@@ -20,7 +20,7 @@ class AtguiguSpider(scrapy.Spider):
             futures = teacher.css('.t-info a').extract_first()
 
             style = teacher.css('.t-info p:last-child').extract_first()
-            image = teacher.css('.t-img img').extract_first()
+            imageurl = teacher.css('.t-img img').extract_first()
 
             item = AtguiguItem()
 
@@ -29,6 +29,6 @@ class AtguiguSpider(scrapy.Spider):
             item['info'] = info
             item['futures'] = futures
             item['style'] = style
-            item['image'] = image
-            print(item)
+            item['imageurl'] = imageurl
+            # print(item)
             yield item

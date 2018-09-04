@@ -106,3 +106,7 @@ venv.bak/
 # db.sqlite3
 db.sqlite3
 .idea/
+# image
+.jpg
+# json
+.json

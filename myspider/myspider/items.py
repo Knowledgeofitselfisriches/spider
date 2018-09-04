@@ -20,10 +20,13 @@ class AtguiguItem(scrapy.Item):
     # 讲课风格：style
     style = scrapy.Field()
     # 图片：image
-    image = scrapy.Field()
+    imageurl = scrapy.Field()
 
 class QiuShiItem(scrapy.Item):
     # 姓名：name
     name = scrapy.Field()
     # 段子：position
     content = scrapy.Field()
+
+
+

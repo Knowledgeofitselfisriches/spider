@@ -18,6 +18,7 @@ requests = "*"
 pyopenssl = "*"
 twisted = "*"
 scrapy = "*"
+pillow = "*"
 
 [dev-packages]
 
