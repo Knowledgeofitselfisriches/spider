@@ -19,6 +19,8 @@ pyopenssl = "*"
 twisted = "*"
 scrapy = "*"
 pillow = "*"
+docopt = "*"
+fake-useragent = "*"
 
 [dev-packages]
 

@@ -21,6 +21,9 @@ class AtguiguItem(scrapy.Item):
     style = scrapy.Field()
     # 图片：image
     imageurl = scrapy.Field()
+    # 路径
+    path = scrapy.Field()
+
 
 class QiuShiItem(scrapy.Item):
     # 姓名：name

@@ -61,3 +61,4 @@ class LeTVImagePipeline(ImagesPipeline):
         os.rename(origin, modify)
         item['path'] = modify
         return item
+

@@ -87,3 +87,13 @@ class QiuShiPipeline(object):
     #     yield Request(img_url)
 
 
+class ShangGuiGuImagePipelines(ImagesPipeline):
+    def get_media_requests(self, item, info):
+        print(type(item['imageurl']))
+        img_url = 'http://www.atguigu.com/' + item['imageurl'].split('"')[1]
+        print(img_url)
+        yield Request(img_url)
+    def item_completed(self, results, item, info):
+        if isinstance(item, dict) or self.images_result_field in item.fields:
+            item[self.images_result_field] = [x for ok, x in results if ok]
+        return item

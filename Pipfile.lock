@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c35046071db06128ea22e2f465f09575ca6ff842c0545e5674bb0a7096e7b056"
+            "sha256": "c9f3161c2a757226f68e63f9e2242f620b1efec12304476e4791b2d4b40131e7"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -165,6 +165,13 @@
             ],
             "version": "==4.3.0"
         },
+        "docopt": {
+            "hashes": [
+                "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"
+            ],
+            "index": "pypi",
+            "version": "==0.6.2"
+        },
         "entrypoints": {
             "hashes": [
                 "sha256:10ad569bb245e7e2ba425285b9fa3e8178a0dc92fc53b1e1c553805e15a8825b",
@@ -172,6 +179,13 @@
             ],
             "markers": "python_version >= '2.7'",
             "version": "==0.2.3"
+        },
+        "fake-useragent": {
+            "hashes": [
+                "sha256:cc9b9ddcebc708b3deac846f5fccb16e37c02ee47435a4ec7132271dd96aec8c"
+            ],
+            "index": "pypi",
+            "version": "==0.1.10"
         },
         "html5lib": {
             "hashes": [

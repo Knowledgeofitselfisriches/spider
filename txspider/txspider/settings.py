@@ -67,9 +67,9 @@ DEFAULT_REQUEST_HEADERS = {
 IMAGES_STORE = os.path.dirname(os.path.realpath("__file__")) + "/images/"
 
 ITEM_PIPELINES = {
-    # 'txspider.pipelines.TxspiderPipeline': 300,
-    'txspider.pipelines.LeTVImagePipeline': 300,
-    'txspider.pipelines.LeTVPipeline': 301,
+    'txspider.pipelines.TxspiderPipeline': 300,
+    # 'txspider.pipelines.LeTVImagePipeline': 300,
+    # 'txspider.pipelines.LeTVPipeline': 301,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

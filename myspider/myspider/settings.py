@@ -8,6 +8,7 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+import os
 
 BOT_NAME = 'myspider'
 
@@ -65,7 +66,9 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'myspider.pipelines.MyspiderPipeline': 300,
+   'myspider.pipelines.MyspiderPipeline': 301,
+   'myspider.pipelines.ShangGuiGuImagePipelines': 300,
+
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -88,4 +91,4 @@ ITEM_PIPELINES = {
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-IMAGES_STORE = 'D:\ImageSpider'
+IMAGES_STORE = os.path.dirname(os.path.realpath("__file__")) + "/images/"
